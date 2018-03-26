@@ -1,0 +1,7 @@
+[package]
+name = "rust_hash_ring"
+version = "0.1.0"
+authors = ["池沐聪 <chimucong@gmail.com>"]
+
+[dependencies]
+libc = "0.2.0"

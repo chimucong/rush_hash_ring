@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+BASEDIR=$(dirname "$0")
+cd $BASEDIR
+
+LIB_DIR="lib"
+
+if [ ! -d $LIB_DIR ]; then
+    mkdir $LIB_DIR
+fi
+
+cd $LIB_DIR
+cmake ../c_hash_ring
+make
